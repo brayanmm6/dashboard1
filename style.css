@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'custom';
+    src: url(./assets/fonts/static/HankenGrotesk-Bold.ttf), 
+    url(./assets/fonts/static/HankenGrotesk-ExtraBold.ttf),
+    url(./assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
+
+html{
+    font-family: 'custom';
+    font-size: larger;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.cartao-score{
+    color: aliceblue;
+    background-color: hsl(252, 100%, 67%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 475px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.nome-texto{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.bola{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(256, 72%, 46%, 1);
+    border: solid hsl(252, 100%, 67%);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.ponto{
+    font-size: 70px;
+    margin: 0px;
+}
+
+.total{
+    margin: 0px;
+    color: hsl(252, 100%, 67%);
+}
+
+.area-resultado-score{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+.resultado-score{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.resultado-text{
+    margin: 10px;
+}
+
+.cartao-sumario{
+    width: 350px;
+    height: 475px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.titulo{
+    color: black;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.informacoes{
+    display: flex;
+    padding: 5px;
+}
+
+
+.botao-continue{
+    font-size: 15px;
+    background-color: hsl(224, 30%, 27%);
+    color:aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 25px;
+}
+
+/* //////////////////////////////////////////////////////
+                sumario cores e estilos
+
+////////////////////////////////////////////////////// */
+
+.reaction{
+    padding: 15px ;
+    color: hsl(0, 100%, 67%);
+    width: 140px;
+}
+
+.memory{
+    padding: 15px;
+    color: hsl(39, 100%, 56%);
+    width: 140px;
+}
+
+.verbal{
+    padding: 15px;
+    color: hsl(166, 100%, 37%);
+    width: 140px;
+}
+
+.visual{
+    padding: 15px;
+    color: hsl(234, 85%, 45%);
+    width: 140px;
+}
+
+.result{
+    padding: 15px;
+}
+
+.texto{
+    padding: 15px;
+    color: gray;
+}
+
+.logo{
+    padding: 10px;
+}
+
+/* //////////////////////////////////////////////////////                         HOVER 
+////////////////////////////////////////////////////// */
+
+.botao-continue:hover{
+    background-color: hsl(224, 30%, 50%);
+    color: black;
+    transform: scale(1.10);
+}
