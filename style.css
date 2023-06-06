@@ -11,6 +11,9 @@ html{
 }
 
 body{
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 900px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,7 +32,9 @@ body{
     height: 475px;
     border-radius: 30px;
     padding: 20px;
-    margin: 20px;
+    margin: 50px;
+    min-width: 320px;
+    max-width: 350px;
 }
 
 .nome-texto{
@@ -75,6 +80,7 @@ body{
 
 .resultado-text{
     margin: 10px;
+    min-width: 250px;
 }
 
 .cartao-sumario{
@@ -87,6 +93,8 @@ body{
     display: flex;
     flex-direction: column;
     margin: 20px;
+    min-width: 320px;
+    max-width: 350px;
 }
 
 .titulo{
